@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 30px; 
+    display: flex;
+    justify-content: center;   
+}
+
+h1 {
+    color: #f2cb05;
+    font-size: 28px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 30px;
+}
+
+.fat {
+    font-weight: 700 !important; 
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw; 
+}
+
+li {
+    height:320px;
+    width: 180px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+img {
+    width: 180px;
+    height: 260px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: inset 5em 1em gray;
+}
+
+.title {
+    color: #fff;
+    font-size: 15px;    
+}
+
+.year {
+    color: #666666;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.Metacritic{
+    position: absolute;
+    color: white;
+    background-color: yellowgreen;
+    top: -10px;
+    right: 15px;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    border-radius: 3px;
+}
